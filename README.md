@@ -14,6 +14,7 @@ El trabajo recorre el ciclo de análisis de datos: comprensión del problema y d
 [![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10ybtOhXt7YEPw3KWzXKhGNupV2ts3W9h?usp=drive_link)
 
 El conjunto de datos se encuentra en `data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv`.
+Al ejecutar el notebook, el dataset limpio y transformado se guarda en `data/processed/telco_customer_churn_processed.csv`. Como el análisis parte de una sola fuente, no se realiza una unión con otros datasets.
 
 ## Tecnologías
 
