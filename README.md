@@ -1,46 +1,54 @@
 # Trabajo Práctico Integrador: Análisis de Datos
 
-## Portada del proyecto
+## Presentación del proyecto
 
-- **Proyecto:** Análisis del abandono de clientes (Telco Customer Churn)
+- **Proyecto:** Análisis y predicción del abandono de clientes (Telco Customer Churn)
 - **Curso:** Trabajo Práctico Integrador
 - **Grupo:** 11
-- **Objetivo:** explorar los factores asociados a la cancelación de servicios y aplicar técnicas de preprocesamiento y modelado predictivo sobre el conjunto de datos Telco Customer Churn.
+- **Problema de negocio:** identificar los factores asociados a la cancelación de servicios de telecomunicaciones y explorar cómo los datos pueden ayudar a anticipar el abandono de clientes.
 
-El trabajo recorre el ciclo de análisis de datos: comprensión del problema y del dataset, ingesta y limpieza, análisis exploratorio y visualización, y preparación y evaluación de modelos.
+El proyecto recorre el ciclo de análisis de datos sobre el conjunto Telco Customer Churn: comprensión del problema y del dataset, ingesta y limpieza, análisis exploratorio y visualización, y preparación y evaluación de modelos predictivos.
 
-### Acceso al notebook
+### Abrir el notebook principal en Google Colab
 
-[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/10ybtOhXt7YEPw3KWzXKhGNupV2ts3W9h?usp=drive_link)
+[![Abrir en Google Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/SantinoCasado/tpi-analisis-de-datos-Grupo11-2026/blob/main/notebooks/TPI_Analisis_de_Datos.ipynb)
 
-El conjunto de datos se encuentra en `data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv`.
-Al ejecutar el notebook, el dataset limpio y transformado se guarda en `data/processed/telco_customer_churn_processed.csv`. Como el análisis parte de una sola fuente, no se realiza una unión con otros datasets.
+El conjunto de datos original está en `data/raw/WA_Fn-UseC_-Telco-Customer-Churn.csv`. El archivo procesado se encuentra en `data/processed/telco_customer_churn_processed.csv`. El análisis utiliza una única fuente, por lo que no se requiere unir datasets.
 
-## Tecnologías
+## Integrantes y división
+
+- Ariana De Palma — División A
+- Candela Corral — División B2
+- Franco Moschini — División B1
+- Santino Casado — División C
+
+## Stack tecnológico
 
 - **Python**: lenguaje de programación.
-- **Pandas y NumPy**: ingesta, manipulación y análisis de datos.
-- **Matplotlib y Seaborn**: visualización.
-- **scikit-learn**: preprocesamiento, partición de datos y modelos predictivos.
-- **Jupyter Notebook y Google Colab**: desarrollo y ejecución reproducible.
+- **Pandas y NumPy**: ingesta, limpieza, transformación y análisis de datos.
+- **Matplotlib y Seaborn**: visualización y análisis exploratorio.
+- **Scikit-learn**: preprocesamiento, partición de datos y modelado predictivo.
+- **Jupyter Notebook y Google Colab**: desarrollo y ejecución de los análisis.
 - **Git y GitHub**: control de versiones y alojamiento del proyecto.
 
-## Integrantes
-
-- Franco Moschini
-- Ariana De Palma
-- Candela Corral
-- Casado Santino
-
-## Estructura del repositorio
+## Estructura y guía de exploración
 
 ```text
 .
 ├── data/
-│   ├── processed/
-│   └── raw/
-│       └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   ├── raw/
+│   │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
+│   └── processed/
+│       └── telco_customer_churn_processed.csv
 ├── docs/
-└── notebook/
-    └── TPI_Analisis_de_Datos.ipynb
+│   └── Trabajo Practico Integrador.pdf
+├── notebooks/
+│   ├── TPI_Analisis_de_Datos.ipynb
+│   ├── TPI_Analisis_de_Datos_Ariana_A.ipynb
+│   ├── TPI_Analisis_de_Datos_Candela_B2.ipynb
+│   ├── TPI_Analisis_de_Datos_Franco_B1.ipynb
+│   └── TPI_Analisis_de_Datos_Santino_C.ipynb
+└── README.md
 ```
+
+Para comenzar, abrí el notebook principal desde el badge de Google Colab. Los notebooks individuales contienen los desarrollos por integrante/división; el informe de presentación está en `docs/`, y los datos originales y procesados se encuentran en `data/raw/` y `data/processed/`, respectivamente.
