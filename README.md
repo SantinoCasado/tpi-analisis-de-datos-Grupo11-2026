@@ -18,8 +18,8 @@ El conjunto de datos original está en `data/raw/WA_Fn-UseC_-Telco-Customer-Chur
 ## Integrantes y división
 
 - Ariana De Palma — División A
-- Candela Corral — División B2
 - Franco Moschini — División B1
+- Candela Corral — División B2
 - Santino Casado — División C
 
 ## Stack tecnológico
